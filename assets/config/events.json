@@ -1,0 +1,85 @@
+[
+  {
+    "id": "krisis_energi",
+    "name": "Krisis Energi Global",
+    "description": "Harga minyak dan gas naik 40%. Negara importir energi mengalami inflasi dan tekanan nilai tukar.",
+    "price_effects": {
+      "minyak": 0.4,
+      "batubara": 0.4
+    },
+    "production_effects": {},
+    "trigger_quarter_mod": 4,
+    "trigger_offset": 2
+  },
+  {
+    "id": "gagal_panen",
+    "name": "Gagal Panen",
+    "description": "Produksi pangan domestik turun 20%. Harga pangan naik.",
+    "price_effects": {
+      "beras": 0.25
+    },
+    "production_effects": {
+      "beras": -0.2
+    },
+    "trigger_quarter_mod": 3,
+    "trigger_offset": 1
+  },
+  {
+    "id": "lonjakan_gas",
+    "name": "Lonjakan Harga Gas",
+    "description": "SEMENTARA Fase 1: harga gas naik 15% akibat gangguan pasokan ringan.",
+    "price_effects": {
+      "gas": 0.15
+    },
+    "production_effects": {},
+    "trigger_quarter_mod": 5,
+    "trigger_offset": 3
+  },
+  {
+    "id": "panen_gandum_baik",
+    "name": "Panen Gandum Baik",
+    "description": "SEMENTARA Fase 1: produksi gandum naik 10%, harga turun 10%.",
+    "price_effects": {
+      "gandum": -0.1
+    },
+    "production_effects": {
+      "gandum": 0.1
+    },
+    "trigger_quarter_mod": 6,
+    "trigger_offset": 4
+  },
+  {
+    "id": "permintaan_tembaga",
+    "name": "Permintaan Tembaga Naik",
+    "description": "SEMENTARA Fase 1: harga tembaga naik 12% ikut elektrifikasi.",
+    "price_effects": {
+      "tembaga": 0.12
+    },
+    "production_effects": {},
+    "trigger_quarter_mod": 5,
+    "trigger_offset": 1
+  },
+  {
+    "id": "rantai_pasok_mesin",
+    "name": "Gangguan Rantai Pasok Mesin",
+    "description": "SEMENTARA Fase 1: harga mesin_industri +10% dan semikonduktor +8%.",
+    "price_effects": {
+      "mesin_industri": 0.1,
+      "semikonduktor": 0.08
+    },
+    "production_effects": {},
+    "trigger_quarter_mod": 7,
+    "trigger_offset": 5
+  },
+  {
+    "id": "baja_murah",
+    "name": "Baja Murah",
+    "description": "SEMENTARA Fase 1: harga besi_baja turun 8% karena surplus global ringan.",
+    "price_effects": {
+      "besi_baja": -0.08
+    },
+    "production_effects": {},
+    "trigger_quarter_mod": 4,
+    "trigger_offset": 0
+  }
+]

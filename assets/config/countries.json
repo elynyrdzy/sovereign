@@ -1,0 +1,41 @@
+[
+  {
+    "id": "indonesia",
+    "name": "Indonesia",
+    "population": 280000000,
+    "gdp": 1400000000000,
+    "inflation": 0.032,
+    "unemployment": 0.053,
+    "debt_to_gdp": 0.39,
+    "fx_reserves": 140000000000,
+    "income_group": "upper_middle_income",
+    "resources": ["nickel", "coal", "oil", "gas", "palm_oil"],
+    "import_needs": ["wheat", "machinery", "semiconductors"]
+  },
+  {
+    "id": "jepang",
+    "name": "Jepang",
+    "population": 124000000,
+    "gdp": 4200000000000,
+    "inflation": 0.028,
+    "unemployment": 0.026,
+    "debt_to_gdp": 2.6,
+    "fx_reserves": 1250000000000,
+    "income_group": "high_income",
+    "resources": ["semikonduktor", "mesin_industri", "besi_baja"],
+    "import_needs": ["minyak", "gas", "gandum"]
+  },
+  {
+    "id": "brasil",
+    "name": "Brasil",
+    "population": 216000000,
+    "gdp": 2100000000000,
+    "inflation": 0.045,
+    "unemployment": 0.08,
+    "debt_to_gdp": 0.88,
+    "fx_reserves": 340000000000,
+    "income_group": "upper_middle_income",
+    "resources": ["minyak", "besi_baja", "gandum", "tembaga"],
+    "import_needs": ["semikonduktor", "mesin_industri", "gas"]
+  }
+]

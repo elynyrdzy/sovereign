@@ -1,0 +1,92 @@
+[
+  {
+    "id": "beras",
+    "category": "pangan",
+    "base_global_price": 550,
+    "unit": "USD_per_ton",
+    "strategic_importance": 0.9,
+    "used_by": ["rumah_tangga", "cadangan_pangan"],
+    "producers": ["indonesia", "india", "vietnam"]
+  },
+  {
+    "id": "minyak",
+    "category": "energi",
+    "base_global_price": 85,
+    "unit": "USD_per_barrel",
+    "strategic_importance": 0.95,
+    "used_by": ["transportasi", "industri", "pembangkit"],
+    "producers": ["indonesia", "nigeria", "brasil"]
+  },
+  {
+    "id": "batubara",
+    "category": "energi",
+    "base_global_price": 130,
+    "unit": "USD_per_ton",
+    "strategic_importance": 0.7,
+    "used_by": ["pembangkit", "industri"],
+    "producers": ["indonesia", "afrika_selatan", "india"]
+  },
+  {
+    "id": "nikel",
+    "category": "material_industri",
+    "base_global_price": 18000,
+    "unit": "USD_per_ton",
+    "strategic_importance": 0.8,
+    "used_by": ["bahan_baterai", "baja_tahan_karat"],
+    "producers": ["indonesia", "filipina", "russia"]
+  },
+  {
+    "id": "semikonduktor",
+    "category": "teknologi",
+    "base_global_price": 1200,
+    "unit": "USD_per_unit_indeks",
+    "strategic_importance": 0.85,
+    "used_by": ["elektronik", "otomotif", "industri_modern"],
+    "producers": ["jepang", "jerman", "amerika_serikat"]
+  },
+  {
+    "id": "gas",
+    "category": "energi",
+    "base_global_price": 420,
+    "unit": "USD_per_ton",
+    "strategic_importance": 0.85,
+    "used_by": ["pembangkit", "industri"],
+    "producers": ["indonesia", "brasil", "amerika_serikat"]
+  },
+  {
+    "id": "gandum",
+    "category": "pangan",
+    "base_global_price": 280,
+    "unit": "USD_per_ton",
+    "strategic_importance": 0.85,
+    "used_by": ["rumah_tangga", "industri_pangan"],
+    "producers": ["brasil", "india", "amerika_serikat"]
+  },
+  {
+    "id": "tembaga",
+    "category": "material_industri",
+    "base_global_price": 8500,
+    "unit": "USD_per_ton",
+    "strategic_importance": 0.75,
+    "used_by": ["elektronik", "konstruksi"],
+    "producers": ["indonesia", "brasil", "filipina"]
+  },
+  {
+    "id": "besi_baja",
+    "category": "material_industri",
+    "base_global_price": 650,
+    "unit": "USD_per_ton",
+    "strategic_importance": 0.7,
+    "used_by": ["konstruksi", "otomotif"],
+    "producers": ["brasil", "jepang", "indonesia"]
+  },
+  {
+    "id": "mesin_industri",
+    "category": "manufaktur",
+    "base_global_price": 3200,
+    "unit": "USD_per_unit_indeks",
+    "strategic_importance": 0.75,
+    "used_by": ["industri_modern", "konstruksi"],
+    "producers": ["jepang", "jerman", "amerika_serikat"]
+  }
+]

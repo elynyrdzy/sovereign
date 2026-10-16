@@ -1,0 +1,50 @@
+[
+  {
+    "id": "pajak",
+    "name": "Tarif Pajak",
+    "min": 0.05,
+    "max": 0.35,
+    "default": 0.15,
+    "unit": "fraksi"
+  },
+  {
+    "id": "belanja",
+    "name": "Belanja Negara per Kuartal",
+    "min": 0,
+    "max": 200000000000,
+    "default": 80000000000,
+    "unit": "USD_per_kuartal"
+  },
+  {
+    "id": "bunga",
+    "name": "Suku Bunga Acuan",
+    "min": 0.0,
+    "max": 0.2,
+    "default": 0.06,
+    "unit": "fraksi"
+  },
+  {
+    "id": "tarif_impor",
+    "name": "Tarif Impor",
+    "min": 0.0,
+    "max": 0.5,
+    "default": 0.1,
+    "unit": "fraksi"
+  },
+  {
+    "id": "subsidi_ekspor",
+    "name": "Subsidi Ekspor",
+    "min": 0.0,
+    "max": 0.3,
+    "default": 0.05,
+    "unit": "fraksi"
+  },
+  {
+    "id": "trade_terms",
+    "name": "Syarat Dagang Dasar",
+    "min": 0.0,
+    "max": 0.5,
+    "default": 0.1,
+    "unit": "fraksi"
+  }
+]

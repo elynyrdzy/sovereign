@@ -1,0 +1,30 @@
+name: sovereign
+description: "SOVEREIGN — The Resource Economy. Turn-based grand strategy / economic management sim (Fase 0)."
+publish_to: 'none'
+version: 0.0.1+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  # Fase 0: disiapkan untuk nanti (grafik, state, save). Belum dipakai UI.
+  fl_chart: ^0.69.0
+  provider: ^6.1.2
+  shared_preferences: ^2.3.3
+  path_provider: ^2.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/config/countries.json
+    - assets/config/commodities.json
+    - assets/config/policies.json
+    - assets/config/events.json
